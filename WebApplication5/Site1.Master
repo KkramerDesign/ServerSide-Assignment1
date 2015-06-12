@@ -1,0 +1,41 @@
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Assignment 1 - Server Side Scripting</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--My css-->
+    <link href="StyleSheet1.css" rel="stylesheet" />   
+    
+    <!--bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+
+    <!--Bootstrap theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>
+</head>
+<body>
+    <header>
+        <h1>Assignment 1</h1>
+    </header>
+    <form runat="server">
+    <div class="container">
+        <!--Main Content-->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <footer>
+       Site Designed by Katie Kramer 
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

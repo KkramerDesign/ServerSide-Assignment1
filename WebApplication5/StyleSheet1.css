@@ -1,0 +1,18 @@
+﻿html {
+    border:5px double green;
+}
+h1, h3{
+    text-align:center;
+}
+#btnctr{
+    text-align:center;
+    margin-bottom:1rem;
+}
+footer{
+    text-align:right;
+    padding-right:5px;
+}
+
+#req {
+    padding-left:80%;
+}
